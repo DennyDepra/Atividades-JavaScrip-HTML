@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>EXERCICIO 01</title>
+        </head>
+        <body>
+            <h3>AREA DE UM TRIÂNGULO</h3>
+            <p>Crie um programa que calcule a area de um triangulo</p>
+            <form onsubmit="executar(event)"" onreset="resetar()">
+                <label for="base">Informe  a base:</label><br>
+
+                <input id="base" type = "number" min = "1" step="1" required></label>
+
+                <br><br>
+                <label for="altura">Informe a altura:</label><br>
+
+                <input id="altura" type = "number" min = "1" step="1" required></label>
+
+                <br><br>
+                <label id="area"></label><br><br>
+                
+
+
+                <button type="submit">VERIFICAR</button>
+                <button type="reset">LIMPAR</button>
+                <button type="button" onclick="retornar()">RETORNAR</button>
+            </form>
+
+            <script src="../JavaS/comum.js"></script>
+            <script src="../JavaS/exe03.js"></script>
+
+        </body>
+</html>
