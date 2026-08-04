@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: hsl(210, 13%, 78%);
+}
+
+.container{
+
+    width:  90%;
+    max-width: 800px;
+    margin: 40px;
+    background-color: #ffff;
+    padding: 30px;
+    border: 0px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(63,62,62);
+
+}
+
+.cabecalho{
+    text-align: center;
+    margin-top: 30px;
+    
+}
